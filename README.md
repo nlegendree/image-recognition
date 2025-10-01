@@ -57,10 +57,6 @@ pip install -r requirements.txt
 ### Installation
 
 1. Clone this repository
-```bash
-git clone https://github.com/yourusername/image-recognition-pipeline.git
-cd image-recognition-pipeline
-```
 
 2. Download the [Caltech20 dataset](https://data.caltech.edu/records/mzrjq-6wc02) and place it in `data/caltech20/`
 
@@ -97,11 +93,3 @@ You can modify hyperparameters in `main.py`:
 - PCA dimensions
 - Spatial pyramid levels
 - Classifier parameters
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 📧 Contact
-
-For questions or feedback, feel free to open an issue on this repository.
