@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - Academic files
+*.pdf
+PA2_Image_Recognition.pdf
+report.pdf
+
+# Output files (generated)
+output/*.npy
+output/*.npz
+output/confmats/*.png
+output/retrieval*/*
+
+# Keep output directory structure
+!output/.gitkeep
+!output/confmats/.gitkeep
+!output/retrieval/.gitkeep
+
+# PyTorch models
+*.pth
+*.pt
+
+# Data (too large for git)
+data/caltech20/*
+!data/caltech20/.gitkeep
