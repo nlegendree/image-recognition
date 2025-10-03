@@ -43,15 +43,7 @@ PA2_Image_Recognition.pdf
 report.pdf
 
 # Output files (generated)
-output/*.npy
-output/*.npz
-output/confmats/*.png
-output/retrieval*/*
-
-# Keep output directory structure
-!output/.gitkeep
-!output/confmats/.gitkeep
-!output/retrieval/.gitkeep
+output/
 
 # PyTorch models
 *.pth
