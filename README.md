@@ -93,3 +93,11 @@ You can modify hyperparameters in `main.py`:
 - PCA dimensions
 - Spatial pyramid levels
 - Classifier parameters
+
+## License
+
+Academic project - DGIST South Korea
+
+---
+
+*Developed as part of the Computer Vision course*
