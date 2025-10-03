@@ -43,7 +43,7 @@ PA2_Image_Recognition.pdf
 report.pdf
 
 # Output files (generated)
-output/
+output/*
 
 # PyTorch models
 *.pth
